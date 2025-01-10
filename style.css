@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.topBar {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e6e7;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 50px 100px 50px 50px;
+    
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.image {
+    flex-direction: row;
+}
+
+.second {
+    background-color: red
+}
+
+.third {
+    background-color: chartreuse;
+}
+
+.fourth {
+    background-color: coral;
+}
+
+.fifth {
+    background-color: plum;
+}
+
+footer {
+    background-color: khaki;
+}
