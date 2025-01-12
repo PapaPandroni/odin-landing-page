@@ -51,6 +51,7 @@ main {
     flex-direction: column;
     width: 480px;
     margin-left: 150px;
+    padding-bottom: 150px;
     
 }
 
@@ -80,14 +81,70 @@ main {
 
 .image {
     flex-direction: row;
+    
 }
 
 .second {
-    background-color: red
+    font-size: 24px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 25px;
+    text-align: center;
+
+}
+
+.images {
+    display: flex;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.images img {
+    border-radius: 25px;
+    border: solid rgb(21, 142, 186) 4px;
+}
+
+.subtext p {
+    width: 200px;
+    height:200px;
+    font-size: 20px;
+    
 }
 
 .third {
-    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #e5e7eb;
+    padding: 100px 350px 100px 100px;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+.third .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 800px;
+    margin: 0;
+}
+
+.third p {
+    margin: 0;
+    font-size: 24px;
 }
 
 .fourth {
